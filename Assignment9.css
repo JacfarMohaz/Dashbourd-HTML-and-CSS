@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidepar{
+    background-color: #557A46;
+    height: 100vh;
+    width: 25%;
+    box-shadow: 5px 2px 7px gray;
+    position: fixed;
+    color: white;
+    font-size: 25px;
+}
+.sidepar a{
+    text-decoration: none;
+    color: white;
+}
+.menu-icon{
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.dashboard{
+    display: flex;
+    gap: 10px;
+    padding-top: 130px;
+    padding-left: 60px;
+}
+.product{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+    padding-left: 60px;
+}
+.box1{
+    margin-left: 26px;
+    margin-top: 20px;
+    background-color: #FF7F50;    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+.container{
+    margin-left: 30%;
+    padding-top: 9px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 15px;
+}
+.box1 h1{
+    padding-top: 50px;
+}
+.box2 h1{
+    padding-top: 50px;
+}
+.box3 h1{
+    padding-top: 50px;
+}
+.box2{
+    margin-left: 26px;
+    margin-top: 20px;
+    background-color: #87CEEA;    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+.box3{
+    margin-left: 26px;
+    margin-top: 20px;
+    background-color: #FEA500;    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
